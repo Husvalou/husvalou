@@ -878,3 +878,28 @@ h1 {
     border-color: #00f2fe;
     transform: translateY(-2px);
 }
+
+.discord-container {
+    background: rgba(31, 41, 55, 0.7);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 2rem auto;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.discord-container .profile-image {
+    margin-bottom: 25px;
+}
+
+.discord-container .profile-image img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.discord-container .social-links {
+    margin: 0;
+}
