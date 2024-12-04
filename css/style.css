@@ -231,6 +231,14 @@ h1 {
     background: #4752c4;
 }
 
+.social-link.spotify {
+    background: #1DB954;
+}
+
+.social-link.spotify:hover {
+    background: #1ed760;
+}
+
 /* Animated Background */
 .animated-background {
     position: fixed;
@@ -902,4 +910,11 @@ h1 {
 
 .discord-container .social-links {
     margin: 0;
+}
+
+.spotify-corner {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
 }
