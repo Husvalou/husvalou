@@ -764,3 +764,57 @@ h1 {
 .featured-image:hover .image-overlay h2 {
     transform: translateY(0);
 }
+
+.discord-card {
+    background: #2f3136;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 380px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.server-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.server-name {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+}
+
+.server-stats {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.online-status {
+    color: #3ba55c;
+}
+
+.member-count {
+    color: #b9bbbe;
+}
+
+.accept-invite-btn {
+    display: block;
+    background: #5865f2;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.accept-invite-btn:hover {
+    background: #4752c4;
+}
