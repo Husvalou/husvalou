@@ -21,7 +21,7 @@ const HomeSection: React.FC = () => {
     <section id="home" className="hero reveal">
       <div className="hero-inner">
         <div className="avatar">
-          <img src="/images/city-night.png" alt="Profile" />
+          <img src="/city-night.png" alt="Profile" />
         </div>
         <div className="hero-text">
           <h1>husvalou</h1>
