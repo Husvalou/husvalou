@@ -8,6 +8,7 @@ const Background: React.FC = () => {
         <div className="light" />
         <div className="light" />
         <div className="light" />
+        <div className="light" />
       </div>
     </>
   );
