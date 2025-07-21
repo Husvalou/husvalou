@@ -13,7 +13,7 @@ const HomeSection: React.FC = () => {
         taglineRef.current.textContent = TAGLINES[indexRef.current];
         indexRef.current = (indexRef.current + 1) % TAGLINES.length;
       }
-    }, 2500);
+    }, 1500);
     return () => clearInterval(interval);
   }, []);
 
